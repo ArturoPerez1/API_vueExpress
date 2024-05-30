@@ -1,12 +1,9 @@
 <template>
-    <div>
-        <h1>Listado de posts:</h1>
-        <PostContainer/>
-    </div>  
+    <CounterComposition/>
 </template>
 
 <script setup>
-    import PostContainer from './components/PostContainer.vue'
+    import CounterComposition from './components/CounterComposition.vue';
 </script>
 
 <style scoped>
